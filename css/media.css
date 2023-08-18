@@ -1,0 +1,127 @@
+@media screen and (max-width: 1000px) {
+	.skill-img {
+		margin: 0px auto;
+		width: 382.67px;
+	}	
+	 .px824{
+		width: 100%;
+		
+	}
+	.aplikace-table {
+		text-align: center;
+		margin-top: 5%;	
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.progress {
+		max-width: 1024px;
+		margin-bottom: 1%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	.body-side-2 {
+		width: 100%;
+	}					
+
+	.hamburger {
+		z-index: 100;
+		text-align: center;
+		padding:3% 20%;																				
+		margin-top: 2%;
+		margin-bottom: 2%;
+		background: #005AA7;
+		cursor: pointer;
+	}
+
+	.showMenu {
+		transform: translateY(0);
+		max-width: 70%;
+		margin: auto;
+	}
+	.menu::after {
+		content: "";
+		background:#005AA7;
+		opacity: 0.95;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
+
+	  }
+
+	.menuItem {
+		font-size: 1.2em;
+		font-weight: 900;
+		color: wheat;
+	}
+
+	
+
+	
+
+	.wave {
+    height: 0px;
+	}
+
+
+	.kostky {
+		position: relative;
+		max-width: 250px;
+		display: inline-flexbox;
+		margin: auto;
+		text-align: center;
+		
+	}
+
+	.kostky img {
+		display: inline-flexbox;
+		width: 120px;
+		padding: 10%;
+		
+	}
+	
+	.vyhodnoceni {
+		text-align: center;
+		font-style: italic;
+		font-size: large;
+		font-weight: 900;
+
+	}
+
+
+
+	form {
+		padding-top: 10%;
+		text-align: center;
+	}
+
+
+	
+	
+	.rotate {
+		position: relative;
+		animation: rotation 10s infinite linear;
+		
+	}
+	  
+	  @keyframes rotation {
+		from {
+			transform: rotate(0deg);
+		}
+		250% {
+			transform: rotate(360deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+
+
+
+}
+
+
+
+
+
